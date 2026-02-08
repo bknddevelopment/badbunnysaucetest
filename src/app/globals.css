@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+/* Custom theme colors */
+@theme {
+  --color-salsa-red: #dc2626;
+  --color-salsa-red-dark: #b91c1c;
+  --color-salsa-black: #0a0a0a;
+  --color-salsa-white: #ffffff;
+  --color-salsa-gray: #1a1a1a;
+
+  --font-cursive: "Dancing Script", cursive;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-salsa-black);
+  color: var(--color-salsa-white);
+  overflow-x: hidden;
+}
+
+/* Video banner overlay gradient */
+.video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.3) 0%,
+    rgba(10, 10, 10, 0.1) 50%,
+    rgba(10, 10, 10, 0.7) 100%
+  );
+}
+
+/* Cursive logo styling */
+.cursive-logo {
+  font-family: var(--font-cursive);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Image gallery hover effects */
+.gallery-image {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 40px rgba(220, 38, 38, 0.3);
+}
+
+/* Red accent underline */
+.red-underline {
+  position: relative;
+}
+
+.red-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-salsa-red),
+    transparent
+  );
+}
+
+/* Scroll animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Button hover effect */
+.btn-salsa {
+  background: linear-gradient(
+    135deg,
+    var(--color-salsa-red) 0%,
+    var(--color-salsa-red-dark) 100%
+  );
+  transition: all 0.3s ease;
+}
+
+.btn-salsa:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(220, 38, 38, 0.4);
+}
+
+/* Section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(220, 38, 38, 0.5),
+    transparent
+  );
+}

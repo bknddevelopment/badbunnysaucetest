@@ -1,0 +1,995 @@
+{
+  "events": [
+    {
+      "name": {
+        "text": "NJ Salsa- Elizabeth, Sundays",
+        "html": "NJ Salsa- Elizabeth, Sundays"
+      },
+      "description": {
+        "text": "On Sundays, NJ Salsa offers On2 in Elizabeth, at Vinty.",
+        "html": "On Sundays, NJ Salsa offers On2 in Elizabeth, at Vinty."
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-elizabeth-sundays-tickets-1979889334296",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-01T18:00:00",
+        "utc": "2026-02-01T23:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-22T20:00:00",
+        "utc": "2026-02-23T01:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T18:08:38Z",
+      "changed": "2026-02-02T21:21:42Z",
+      "published": "2026-01-17T20:43:38Z",
+      "capacity": 94,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "On Sundays, NJ Salsa offers On2 in Elizabeth, at Vinty.",
+      "facebook_event_id": null,
+      "logo_id": "1174123845",
+      "organizer_id": "49096153083",
+      "venue_id": "295440048",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "11",
+      "id": "1979889334296",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979889334296/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174123845%2F2769774287501%2F1%2Foriginal.20260106-180549?auto=format%2Ccompress&q=75&sharp=10&s=8a7a11e3868b65433c88e9f24360725d",
+          "width": 1200,
+          "height": 740
+        },
+        "id": "1174123845",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174123845%2F2769774287501%2F1%2Foriginal.20260106-180549?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.578&fp-y=0.33&s=9a92613a094545ad0b058d7be0c7c805",
+        "aspect_ratio": "1.62",
+        "edge_color": "#242630",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "50 Union Street",
+          "address_2": "",
+          "city": "Elizabeth",
+          "region": "NJ",
+          "postal_code": "07202",
+          "country": "US",
+          "latitude": "40.6654492",
+          "longitude": "-74.21731369999999",
+          "localized_address_display": "50 Union Street, Elizabeth, NJ 07202",
+          "localized_area_display": "Elizabeth, NJ",
+          "localized_multi_line_address_display": [
+            "50 Union Street",
+            "Elizabeth, NJ 07202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/295440048/",
+        "id": "295440048",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "50 Union St",
+        "latitude": "40.6654492",
+        "longitude": "-74.21731369999999"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- Elizabeth Bachata Mondays",
+        "html": "NJ Salsa- Elizabeth Bachata Mondays"
+      },
+      "description": {
+        "text": "On Monday's, NJ Salsa offers Bachata group classes and a practice, in Elizabeth.",
+        "html": "On Monday's, NJ Salsa offers Bachata group classes and a practice, in Elizabeth."
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-elizabeth-bachata-mondays-tickets-1979892399464",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-02T19:00:00",
+        "utc": "2026-02-03T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-23T20:30:00",
+        "utc": "2026-02-24T01:30:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T18:37:33Z",
+      "changed": "2026-02-05T23:49:20Z",
+      "published": "2026-01-17T19:57:35Z",
+      "capacity": 93,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "On Monday's, NJ Salsa offers Bachata group classes and a practice, in Elizabeth.",
+      "facebook_event_id": null,
+      "logo_id": "1175064173",
+      "organizer_id": "49096153083",
+      "venue_id": "295440278",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1979892399464",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979892399464/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175064173%2F2769774287501%2F1%2Foriginal.20260116-163610?auto=format%2Ccompress&q=75&sharp=10&s=9e6b61b309b57bc67010937698ae7a62",
+          "width": 934,
+          "height": 585
+        },
+        "id": "1175064173",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175064173%2F2769774287501%2F1%2Foriginal.20260116-163610?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.649&fp-y=0.072&s=5761dfd003b584bc2f335c0bf7ae12af",
+        "aspect_ratio": "1.6",
+        "edge_color": "#212756",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "50 Union Street",
+          "address_2": "",
+          "city": "Elizabeth",
+          "region": "NJ",
+          "postal_code": "07202",
+          "country": "US",
+          "latitude": "40.6654492",
+          "longitude": "-74.21731369999999",
+          "localized_address_display": "50 Union Street, Elizabeth, NJ 07202",
+          "localized_area_display": "Elizabeth, NJ",
+          "localized_multi_line_address_display": [
+            "50 Union Street",
+            "Elizabeth, NJ 07202"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/295440278/",
+        "id": "295440278",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "50 Union St",
+        "latitude": "40.6654492",
+        "longitude": "-74.21731369999999"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- Asbury Park, Mondays",
+        "html": "NJ Salsa- Asbury Park, Mondays"
+      },
+      "description": {
+        "text": "NJ Salsa hosts classes at Asbury Park Mondays for the month of February.",
+        "html": "NJ Salsa hosts classes at Asbury Park Mondays for the month of February."
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-asbury-park-mondays-tickets-1979916949895",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-02T19:00:00",
+        "utc": "2026-02-03T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-23T22:00:00",
+        "utc": "2026-02-24T03:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T21:28:32Z",
+      "changed": "2026-02-04T21:46:45Z",
+      "published": "2026-01-15T22:33:51Z",
+      "capacity": 270,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "NJ Salsa hosts classes at Asbury Park Mondays for the month of February.",
+      "facebook_event_id": null,
+      "logo_id": "1175005591",
+      "organizer_id": "49096153083",
+      "venue_id": "220825619",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1979916949895",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979916949895/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175005591%2F243108020658%2F1%2Foriginal.20260115-223215?auto=format%2Ccompress&q=75&sharp=10&s=8fe737f3cdd6502b05c9d3d71153a8c2",
+          "width": 1600,
+          "height": 900
+        },
+        "id": "1175005591",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175005591%2F243108020658%2F1%2Foriginal.20260115-223215?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c5b6107be0f0bbf8a3b9c286f7af10da",
+        "aspect_ratio": "1.775",
+        "edge_color": "#331839",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "572 Cookman Avenue",
+          "address_2": "",
+          "city": "Asbury Park",
+          "region": "NJ",
+          "postal_code": "07712",
+          "country": "US",
+          "latitude": "40.2160241",
+          "longitude": "-74.0098416",
+          "localized_address_display": "572 Cookman Avenue, Asbury Park, NJ 07712",
+          "localized_area_display": "Asbury Park, NJ",
+          "localized_multi_line_address_display": [
+            "572 Cookman Avenue",
+            "Asbury Park, NJ 07712"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/220825619/",
+        "id": "220825619",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "House of Independents",
+        "latitude": "40.2160241",
+        "longitude": "-74.0098416"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- Somerville, Tuesdays",
+        "html": "NJ Salsa- Somerville, Tuesdays"
+      },
+      "description": {
+        "text": "On Tuesdays, NJ Salsa hosts Salsa & Bachata classes at Village Brewing Co., in Somerville.",
+        "html": "On Tuesdays, NJ Salsa hosts Salsa &amp; Bachata classes at Village Brewing Co., in Somerville."
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-somerville-tuesdays-tickets-1979895363329",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-03T19:00:00",
+        "utc": "2026-02-04T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-24T21:00:00",
+        "utc": "2026-02-25T02:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T19:09:15Z",
+      "changed": "2026-02-05T02:04:14Z",
+      "published": "2026-01-17T19:48:53Z",
+      "capacity": 260,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "On Tuesdays, NJ Salsa hosts Salsa & Bachata classes at Village Brewing Co., in Somerville.",
+      "facebook_event_id": null,
+      "logo_id": "1176112880",
+      "organizer_id": "49096153083",
+      "venue_id": "295355959",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1979895363329",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979895363329/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176112880%2F2769774287501%2F1%2Foriginal.20260128-224614?auto=format%2Ccompress&q=75&sharp=10&s=58990f36efc3788ee5be6267c2b78344",
+          "width": 1343,
+          "height": 712
+        },
+        "id": "1176112880",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176112880%2F2769774287501%2F1%2Foriginal.20260128-224614?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=605528a6f3e56edc0d5c6cbaec1ac5b4",
+        "aspect_ratio": "1.89",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "34 West Main Street",
+          "address_2": "",
+          "city": "Somerville",
+          "region": "NJ",
+          "postal_code": "08876",
+          "country": "US",
+          "latitude": "40.568734",
+          "longitude": "-74.6128086",
+          "localized_address_display": "34 West Main Street, Somerville, NJ 08876",
+          "localized_area_display": "Somerville, NJ",
+          "localized_multi_line_address_display": [
+            "34 West Main Street",
+            "Somerville, NJ 08876"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/295355959/",
+        "id": "295355959",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Village Brewing Company",
+        "latitude": "40.568734",
+        "longitude": "-74.6128086"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- Elizabeth, Tuesdays",
+        "html": "NJ Salsa- Elizabeth, Tuesdays"
+      },
+      "description": {
+        "text": "Open enrollment for out popular Tuesday Salsa programs at Lobby in Elizabeth!",
+        "html": "Open enrollment for out popular Tuesday Salsa programs at Lobby in Elizabeth!"
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-elizabeth-tuesdays-tickets-1979896514773",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-03T19:00:00",
+        "utc": "2026-02-04T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-24T21:00:00",
+        "utc": "2026-02-25T02:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T19:19:59Z",
+      "changed": "2026-02-04T21:25:42Z",
+      "published": "2026-01-17T19:44:57Z",
+      "capacity": 156,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Open enrollment for out popular Tuesday Salsa programs at Lobby in Elizabeth!",
+      "facebook_event_id": null,
+      "logo_id": "1174132340",
+      "organizer_id": "49096153083",
+      "venue_id": "295369084",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1979896514773",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979896514773/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174132340%2F2769774287501%2F1%2Foriginal.20260106-191809?auto=format%2Ccompress&q=75&sharp=10&s=7dc8e5ce9aca6ef681b5c8246667ff2e",
+          "width": 891,
+          "height": 538
+        },
+        "id": "1174132340",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174132340%2F2769774287501%2F1%2Foriginal.20260106-191809?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=19e90b0c094c5516fac7617c5c1258f5",
+        "aspect_ratio": "1.66",
+        "edge_color": "#16162e",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "821 Spring Street",
+          "address_2": "",
+          "city": "Elizabeth",
+          "region": "NJ",
+          "postal_code": "07201",
+          "country": "US",
+          "latitude": "40.6779466",
+          "longitude": "-74.1956783",
+          "localized_address_display": "821 Spring Street, Elizabeth, NJ 07201",
+          "localized_area_display": "Elizabeth, NJ",
+          "localized_multi_line_address_display": [
+            "821 Spring Street",
+            "Elizabeth, NJ 07201"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/295369084/",
+        "id": "295369084",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "821 Spring St",
+        "latitude": "40.6779466",
+        "longitude": "-74.1956783"
+      }
+    },
+    {
+      "name": {
+        "text": "Rhythm In Motion- Fanwood, NJ  - Salsa Group Classes",
+        "html": "Rhythm In Motion- Fanwood, NJ  - Salsa Group Classes"
+      },
+      "description": {
+        "text": "Rhythm In Motion offers Salsa Level 1 & Level 2 group classes in Maywood, NJ.",
+        "html": "Rhythm In Motion offers Salsa Level 1 &amp; Level 2 group classes in Maywood, NJ."
+      },
+      "url": "https://www.eventbrite.com/e/rhythm-in-motion-fanwood-nj-salsa-group-classes-tickets-1981877415701",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-03T20:30:00",
+        "utc": "2026-02-04T01:30:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-24T21:30:00",
+        "utc": "2026-02-25T02:30:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-28T19:58:08Z",
+      "changed": "2026-02-04T04:42:25Z",
+      "published": "2026-02-03T20:59:51Z",
+      "capacity": 60,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Rhythm In Motion offers Salsa Level 1 & Level 2 group classes in Maywood, NJ.",
+      "facebook_event_id": null,
+      "logo_id": "1176111923",
+      "organizer_id": "49096153083",
+      "venue_id": "296183388",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1981877415701",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1981877415701/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176111923%2F2769774287501%2F1%2Foriginal.20260128-223548?auto=format%2Ccompress&q=75&sharp=10&s=2e861d61f97e04ce2c665ec2d14bdd38",
+          "width": 1329,
+          "height": 741
+        },
+        "id": "1176111923",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176111923%2F2769774287501%2F1%2Foriginal.20260128-223548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=03fd4b82782831415d249b953f500cdf",
+        "aspect_ratio": "1.8",
+        "edge_color": "#301c44",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "34 South Avenue",
+          "address_2": "",
+          "city": "Fanwood",
+          "region": "NJ",
+          "postal_code": "07023",
+          "country": "US",
+          "latitude": "40.635573",
+          "longitude": "-74.3911416",
+          "localized_address_display": "34 South Avenue, Fanwood, NJ 07023",
+          "localized_area_display": "Fanwood, NJ",
+          "localized_multi_line_address_display": [
+            "34 South Avenue",
+            "Fanwood, NJ 07023"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/296183388/",
+        "id": "296183388",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Dance at Le Pari",
+        "latitude": "40.635573",
+        "longitude": "-74.3911416"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- Milburn",
+        "html": "NJ Salsa- Milburn"
+      },
+      "description": {
+        "text": "Join us for our salsa and bachata classes held every Wednesday for the month of January.",
+        "html": "Join us for our salsa and bachata classes held every Wednesday for the month of January."
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-milburn-tickets-1979898049363",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-04T19:00:00",
+        "utc": "2026-02-05T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-25T21:00:00",
+        "utc": "2026-02-26T02:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-06T19:33:27Z",
+      "changed": "2026-02-05T22:17:34Z",
+      "published": "2026-01-17T20:01:39Z",
+      "capacity": 47,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Join us for our salsa and bachata classes held every Wednesday for the month of January.",
+      "facebook_event_id": null,
+      "logo_id": "1174134014",
+      "organizer_id": "49096153083",
+      "venue_id": "293073053",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "6",
+      "id": "1979898049363",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1979898049363/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174134014%2F2769774287501%2F1%2Foriginal.20260106-193241?auto=format%2Ccompress&q=75&sharp=10&s=123e56e038c150803d254ff82743213e",
+          "width": 1096,
+          "height": 670
+        },
+        "id": "1174134014",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1174134014%2F2769774287501%2F1%2Foriginal.20260106-193241?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.144&s=76722b7830e8d3c1e2d189c7e98a726e",
+        "aspect_ratio": "1.635",
+        "edge_color": "#c2b6ca",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "55 Main Street",
+          "address_2": "",
+          "city": "Millburn",
+          "region": "NJ",
+          "postal_code": "07041",
+          "country": "US",
+          "latitude": "40.7235678",
+          "longitude": "-74.3073067",
+          "localized_address_display": "55 Main Street, Millburn, NJ 07041",
+          "localized_area_display": "Millburn, NJ",
+          "localized_multi_line_address_display": [
+            "55 Main Street",
+            "Millburn, NJ 07041"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/293073053/",
+        "id": "293073053",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "MoonShine Modern Supper Club",
+        "latitude": "40.7235678",
+        "longitude": "-74.3073067"
+      }
+    },
+    {
+      "name": {
+        "text": "Regal Mambo Co. Salsa On2",
+        "html": "Regal Mambo Co. Salsa On2"
+      },
+      "description": {
+        "text": "Regal Mambo Dance Co. offers beginners, advance beginners, & intermediate Salsa On2 class in Kenilworth, NJ",
+        "html": "Regal Mambo Dance Co. offers beginners, advance beginners, &amp; intermediate Salsa On2 class in Kenilworth, NJ"
+      },
+      "url": "https://www.eventbrite.com/e/regal-mambo-co-salsa-on2-tickets-1981605454257",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-04T20:15:00",
+        "utc": "2026-02-05T01:15:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-25T22:00:00",
+        "utc": "2026-02-26T03:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-26T20:56:23Z",
+      "changed": "2026-02-05T04:42:13Z",
+      "published": "2026-02-04T03:36:12Z",
+      "capacity": 60,
+      "capacity_is_custom": false,
+      "status": "started",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "Regal Mambo Dance Co. offers beginners, advance beginners, & intermediate Salsa On2 class in Kenilworth, NJ",
+      "facebook_event_id": null,
+      "logo_id": "1176111810",
+      "organizer_id": "49096153083",
+      "venue_id": "296143133",
+      "category_id": "105",
+      "subcategory_id": "5004",
+      "format_id": "9",
+      "id": "1981605454257",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1981605454257/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176111810%2F2769774287501%2F1%2Foriginal.20260128-223425?auto=format%2Ccompress&q=75&sharp=10&s=5171c16b5ad644094c09114aa4600fe6",
+          "width": 1328,
+          "height": 735
+        },
+        "id": "1176111810",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176111810%2F2769774287501%2F1%2Foriginal.20260128-223425?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=b88145b9f19b06691fb502dfafab701d",
+        "aspect_ratio": "1.805",
+        "edge_color": "#362757",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "604 Boulevard",
+          "address_2": "",
+          "city": "Kenilworth",
+          "region": "NJ",
+          "postal_code": "07033",
+          "country": "US",
+          "latitude": "40.6768762",
+          "longitude": "-74.288393",
+          "localized_address_display": "604 Boulevard, Kenilworth, NJ 07033",
+          "localized_area_display": "Kenilworth, NJ",
+          "localized_multi_line_address_display": [
+            "604 Boulevard",
+            "Kenilworth, NJ 07033"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/296143133/",
+        "id": "296143133",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "604 Boulevard",
+        "latitude": "40.6768762",
+        "longitude": "-74.288393"
+      }
+    },
+    {
+      "name": {
+        "text": "NJ Salsa- SUPER BOWL LX  | Dance &  Watch Party",
+        "html": "NJ Salsa- SUPER BOWL LX  | Dance &amp;  Watch Party"
+      },
+      "description": {
+        "text": "NJ Salsa hosts a dance & watch party for the 2026 Super Bowl LX & Bad Bunny half time show!",
+        "html": "NJ Salsa hosts a dance &amp; watch party for the 2026 Super Bowl LX &amp; Bad Bunny half time show!"
+      },
+      "url": "https://www.eventbrite.com/e/nj-salsa-super-bowl-lx-dance-watch-party-tickets-1980742227322",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-08T17:00:00",
+        "utc": "2026-02-08T22:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-09T00:00:00",
+        "utc": "2026-02-09T05:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-16T19:56:15Z",
+      "changed": "2026-02-08T02:16:41Z",
+      "published": "2026-01-17T21:00:48Z",
+      "capacity": 120,
+      "capacity_is_custom": false,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "NJ Salsa hosts a dance & watch party for the 2026 Super Bowl LX & Bad Bunny half time show!",
+      "facebook_event_id": null,
+      "logo_id": "1176276417",
+      "organizer_id": "49096153083",
+      "venue_id": "296005960",
+      "category_id": "103",
+      "subcategory_id": "3010",
+      "format_id": "11",
+      "id": "1980742227322",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1980742227322/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176276417%2F2769774287501%2F1%2Foriginal.20260130-180444?auto=format%2Ccompress&q=75&sharp=10&s=83bf461302c4fccc4559dd9949e21ac6",
+          "width": 1600,
+          "height": 900
+        },
+        "id": "1176276417",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176276417%2F2769774287501%2F1%2Foriginal.20260130-180444?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7bdcb9a61409a6bd1bf04e6c188ffe3f",
+        "aspect_ratio": "1.775",
+        "edge_color": "#183048",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "17 Broad Street",
+          "address_2": "",
+          "city": "Elizabeth",
+          "region": "NJ",
+          "postal_code": "07201",
+          "country": "US",
+          "latitude": "40.6626815",
+          "longitude": "-74.21473519999999",
+          "localized_address_display": "17 Broad Street, Elizabeth, NJ 07201",
+          "localized_area_display": "Elizabeth, NJ",
+          "localized_multi_line_address_display": [
+            "17 Broad Street",
+            "Elizabeth, NJ 07201"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/296005960/",
+        "id": "296005960",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Dolce",
+        "latitude": "40.6626815",
+        "longitude": "-74.21473519999999"
+      }
+    },
+    {
+      "name": {
+        "text": "THE LATIN SOCIAL American Dream Valentine's Day",
+        "html": "THE LATIN SOCIAL American Dream Valentine&#39;s Day"
+      },
+      "description": {
+        "text": "THE LATIN SOCIAL returns to American Dream, Sat, 2/14! This special Valentine's Day edition will also be the official launch of LUVNEY!",
+        "html": "THE LATIN SOCIAL returns to American Dream, Sat, 2/14! This special Valentine's Day edition will also be the official launch of LUVNEY!"
+      },
+      "url": "https://www.eventbrite.com/e/the-latin-social-american-dream-valentines-day-tickets-1980900068429",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2026-02-14T21:00:00",
+        "utc": "2026-02-15T02:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2026-02-15T02:00:00",
+        "utc": "2026-02-15T07:00:00Z"
+      },
+      "organization_id": "1023087609453",
+      "created": "2026-01-19T20:11:24Z",
+      "changed": "2026-02-08T00:34:41Z",
+      "published": "2026-01-31T19:01:22Z",
+      "capacity": 389,
+      "capacity_is_custom": false,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "invite_only": false,
+      "online_event": false,
+      "show_remaining": false,
+      "tx_time_limit": 1200,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "inventory_type": "limited",
+      "is_reserved_seating": false,
+      "show_pick_a_seat": false,
+      "show_seatmap_thumbnail": false,
+      "show_colors_in_seatmap_thumbnail": false,
+      "source": "coyote",
+      "is_free": false,
+      "version": null,
+      "summary": "THE LATIN SOCIAL returns to American Dream, Sat, 2/14! This special Valentine's Day edition will also be the official launch of LUVNEY!",
+      "facebook_event_id": null,
+      "logo_id": "1176829014",
+      "organizer_id": "49096153083",
+      "venue_id": "296039343",
+      "category_id": "113",
+      "subcategory_id": "13999",
+      "format_id": "11",
+      "id": "1980900068429",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/1980900068429/",
+      "is_externally_ticketed": false,
+      "logo": {
+        "crop_mask": null,
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176829014%2F243108020658%2F1%2Foriginal.20260205-223512?auto=format%2Ccompress&q=75&sharp=10&s=cbe6672ccdef8a406bb7fe52038662ee",
+          "width": 1171,
+          "height": 976
+        },
+        "id": "1176829014",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176829014%2F243108020658%2F1%2Foriginal.20260205-223512?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.422&s=533b6b54df45769677cc18c67e57e5de",
+        "aspect_ratio": "1.2",
+        "edge_color": "#5a4f47",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "1 American Dream Way",
+          "address_2": "",
+          "city": "East Rutherford",
+          "region": "NJ",
+          "postal_code": "07073",
+          "country": "US",
+          "latitude": "40.8091292",
+          "longitude": "-74.0685673",
+          "localized_address_display": "1 American Dream Way, East Rutherford, NJ 07073",
+          "localized_area_display": "East Rutherford, NJ",
+          "localized_multi_line_address_display": [
+            "1 American Dream Way",
+            "East Rutherford, NJ 07073"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/296039343/",
+        "id": "296039343",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "American Dream",
+        "latitude": "40.8091292",
+        "longitude": "-74.0685673"
+      }
+    }
+  ],
+  "lastUpdated": "2026-02-08T06:10:10.590Z"
+}
