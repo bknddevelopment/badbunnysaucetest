@@ -1,12 +1,28 @@
 import type { Metadata } from "next";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair-display",
+  display: "swap",
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter-sans",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
-  title: "Bad Bunny Salsa | Salsa Dancing in New Jersey",
+  title: "Bad Bunny Salsa | The World's Latin Dance Platform",
   description:
-    "Join the most vibrant salsa dancing community in New Jersey. Experience the passion, energy, and joy of Latin dance with Bad Bunny Salsa. Classes, socials, and events for all levels.",
+    "The world's premier platform for salsa events, classes, and Latin dance. Born in New Jersey, connecting dancers worldwide. List your events, find socials, and join the global movement.",
   keywords: [
     "salsa",
     "dance",
@@ -18,6 +34,9 @@ export const metadata: Metadata = {
     "bachata",
     "salsa lessons",
     "latin dancing",
+    "global salsa events",
+    "list dance events",
+    "salsa worldwide",
   ],
   authors: [{ name: "Bad Bunny Salsa" }],
   creator: "Bad Bunny Salsa",
@@ -27,9 +46,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Bad Bunny Salsa | Salsa Dancing in New Jersey",
+    title: "Bad Bunny Salsa | The World's Latin Dance Platform",
     description:
-      "Join the most vibrant salsa dancing community in New Jersey. Experience the passion, energy, and joy of Latin dance.",
+      "The world's premier platform for salsa events, classes, and Latin dance. Born in New Jersey, connecting dancers worldwide.",
     url: "https://badbunnysalsa.com",
     siteName: "Bad Bunny Salsa",
     images: [
@@ -45,9 +64,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bad Bunny Salsa | Salsa Dancing in New Jersey",
+    title: "Bad Bunny Salsa | The World's Latin Dance Platform",
     description:
-      "Join the most vibrant salsa dancing community in New Jersey. Experience the passion, energy, and joy of Latin dance.",
+      "The world's premier platform for salsa events, classes, and Latin dance. Born in New Jersey, connecting dancers worldwide.",
     images: ["/og-image.png"],
   },
   icons: {
@@ -85,7 +104,7 @@ export default function RootLayout({
     url: "https://badbunnysalsa.com",
     logo: "https://badbunnysalsa.com/images/logo.webp",
     description:
-      "Salsa Elevated - Premier salsa dancing classes and events in New Jersey",
+      "The world's premier platform for salsa events, classes, and Latin dance. Born in New Jersey, connecting dancers worldwide.",
     email: "info@badbunnysalsa.com",
     sameAs: [
       "https://www.instagram.com/badbunnysalsa/",
@@ -102,7 +121,7 @@ export default function RootLayout({
     logo: "https://badbunnysalsa.com/images/logo.webp",
     image: "https://badbunnysalsa.com/og-image.png",
     description:
-      "Premier salsa dancing classes and events in New Jersey. No partner required, no experience needed.",
+      "The world's Latin dance platform. Salsa events, classes, and community worldwide. Born in New Jersey, connecting dancers everywhere.",
     email: "info@badbunnysalsa.com",
     address: {
       "@type": "PostalAddress",
@@ -122,7 +141,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className={`${playfairDisplay.variable} ${inter.variable}`}>
       <body className="antialiased">
         <script
           type="application/ld+json"

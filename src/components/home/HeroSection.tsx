@@ -1,110 +1,94 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen w-full bg-salsa-black">
-      {/* Mobile Layout - Stacked */}
-      <div className="md:hidden flex flex-col">
-        {/* Text Content - Mobile */}
-        <div className="pt-24 pb-8 px-6 text-center bg-salsa-black flex flex-col items-center">
-          <Image
-            src="/badbunnysaucetest/images/logo.webp"
-            alt="Bad Bunny Salsa"
-            width={300}
-            height={200}
-            className="h-40 w-auto mb-4 animate-fade-in-up"
-            priority
-          />
-          <p
-            className="text-lg text-salsa-white/90 max-w-md mx-auto mb-6 animate-fade-in-up italic"
-            style={{ animationDelay: "0.2s" }}
-          >
-            &quot;Salsa Elevated&quot;
-          </p>
+    <section className="relative h-screen w-full bg-salsa-black overflow-hidden">
+      {/* Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        poster="/badbunnysaucetest/videos/hero-poster.jpg"
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source
+          src="/badbunnysaucetest/videos/hero-video.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      {/* Dark gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-salsa-black/40 via-salsa-black/50 to-salsa-black/80" />
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+        {/* Label */}
+        <p
+          className="text-red-600 text-xs md:text-sm font-semibold uppercase tracking-[0.2em] mb-6 animate-fade-in-up"
+          style={{ animationDelay: "0s" }}
+        >
+          The World&apos;s Latin Dance Platform
+        </p>
+
+        {/* Headline */}
+        <h1
+          className="font-playfair italic text-5xl md:text-7xl lg:text-8xl xl:text-9xl leading-tight mb-6 animate-fade-in-up"
+          style={{ animationDelay: "0.15s" }}
+        >
+          <span className="text-salsa-white">Feel the Rhythm.</span>
+          <br />
+          <span className="text-red-600">Own the Floor.</span>
+        </h1>
+
+        {/* Subtitle */}
+        <p
+          className="text-salsa-white/70 text-base md:text-lg lg:text-xl max-w-2xl mb-10 animate-fade-in-up"
+          style={{ animationDelay: "0.3s" }}
+        >
+          From New Jersey to the world &mdash; electrifying salsa socials,
+          world-class workshops, and unforgettable nights that bring Latin dance
+          to every city.
+        </p>
+
+        {/* CTAs */}
+        <div
+          className="flex flex-col sm:flex-row gap-4 animate-fade-in-up"
+          style={{ animationDelay: "0.45s" }}
+        >
           <Link
             href="/events"
-            className="btn-salsa inline-block px-6 py-3 rounded-full text-salsa-white font-semibold animate-fade-in-up"
-            style={{ animationDelay: "0.4s" }}
+            className="btn-glow px-8 py-4 rounded-full text-salsa-white font-bold text-sm uppercase tracking-wider"
           >
-            Join Our Next Event
+            Upcoming Events
           </Link>
-        </div>
-        {/* Video - Mobile */}
-        <div className="relative w-full aspect-video">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/badbunnysaucetest/videos/hero-poster.jpg"
-            className="w-full h-full object-cover"
+          <Link
+            href="/about"
+            className="px-8 py-4 rounded-full border-2 border-salsa-white/80 text-salsa-white font-bold text-sm uppercase tracking-wider hover:bg-salsa-white/10 transition-colors"
           >
-            <source src="/badbunnysaucetest/videos/hero-video.mp4" type="video/mp4" />
-          </video>
-        </div>
-        {/* Scroll indicator - Mobile */}
-        <div className="py-6 flex justify-center animate-bounce">
-          <svg
-            className="w-8 h-8 text-salsa-white"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            />
-          </svg>
+            Learn More
+          </Link>
         </div>
       </div>
 
-      {/* Desktop Layout - Overlay */}
-      <div className="hidden md:block relative h-screen w-full overflow-hidden">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster="/badbunnysaucetest/videos/hero-poster.jpg"
-          className="absolute inset-0 w-full h-full object-cover"
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-scroll-bounce">
+        <svg
+          className="w-6 h-6 text-salsa-white/50"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
         >
-          <source src="/badbunnysaucetest/videos/hero-video.mp4" type="video/mp4" />
-        </video>
-        <div className="video-overlay absolute inset-0" />
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
-          <p className="text-2xl text-salsa-white/90 max-w-2xl mb-8 animate-fade-in-up italic">
-            &quot;Salsa Elevated&quot;
-          </p>
-          <Link
-            href="/events"
-            className="btn-salsa px-8 py-4 rounded-full text-salsa-white font-semibold text-lg animate-fade-in-up"
-            style={{ animationDelay: "0.4s" }}
-          >
-            Join Our Next Event
-          </Link>
-        </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <svg
-            className="w-8 h-8 text-salsa-white"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 14l-7 7m0 0l-7-7m7 7V3"
-            />
-          </svg>
-        </div>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
       </div>
     </section>
   );

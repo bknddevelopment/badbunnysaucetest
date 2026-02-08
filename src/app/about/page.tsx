@@ -4,91 +4,115 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Bad Bunny Salsa | Our Mission & Story",
   description:
-    "Learn about Bad Bunny Salsa — our mission to elevate salsa dancing in New Jersey through classes, socials, and community events. Partnership with NJ Salsa.",
+    "Learn about Bad Bunny Salsa — born in New Jersey, built for the world. The global platform for salsa events, classes, and Latin dance community.",
   alternates: { canonical: "/about" },
   openGraph: {
     title: "About Bad Bunny Salsa | Our Mission & Story",
     description:
-      "Learn about Bad Bunny Salsa and our mission to elevate salsa dancing in New Jersey.",
+      "Learn about Bad Bunny Salsa — born in New Jersey, connecting dancers worldwide.",
     url: "https://badbunnysalsa.com/about",
   },
 };
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-[#0a0a0a]">
       {/* Hero */}
-      <section className="pt-32 pb-16 md:pb-20 px-6 bg-salsa-black text-center">
-        <h1 className="cursive-logo text-5xl md:text-6xl font-bold text-salsa-white mb-4 red-underline inline-block">
-          About Us
+      <section className="pt-32 pb-16 md:pb-20 px-6 text-center">
+        <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+          Our Story
+        </p>
+        <h1 className="font-serif italic text-5xl md:text-6xl lg:text-7xl text-white mb-6">
+          Nuestra Historia
         </h1>
-        <p className="text-salsa-red font-semibold text-xl mt-6 italic">
-          &quot;Salsa Elevated&quot;
+        <p className="text-red-500 font-medium text-xl md:text-2xl italic max-w-2xl mx-auto">
+          Born in New Jersey. Built for the world.
         </p>
       </section>
 
-      {/* About Section */}
-      <section className="py-16 md:py-20 px-6 bg-salsa-gray">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="space-y-6 text-salsa-white/80 text-lg leading-relaxed">
+      {/* Origin Story */}
+      <section className="py-16 md:py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-[#111] border border-white/10 rounded-xl p-8 md:p-12 space-y-6 text-white/80 text-lg leading-relaxed">
             <p>
-              Our goal at{" "}
-              <span className="text-salsa-red font-semibold">
+              The music drops. The lights shift. And a room full of strangers
+              becomes a family. That&apos;s not a tagline&mdash;that&apos;s a
+              Tuesday night at{" "}
+              <span className="text-red-500 font-semibold">
                 Bad Bunny Salsa
-              </span>{" "}
-              is to team up with dance companies, musicians, DJs, and
-              nightclubs/lounges to promote Latin music and social dance,
-              especially SALSA, as a (re)new(ed) wave in pop culture!
+              </span>
+              .
             </p>
             <p>
-              We&apos;re excited to have our first collaborative partner and
-              sponsor in New Jersey be{" "}
-              <span className="text-salsa-red font-semibold">NJ Salsa</span>!
+              We started with a simple idea: Latin dance shouldn&apos;t be
+              locked away in studios. It belongs in the clubs, the lounges, the
+              places where the music already lives. So we teamed up with DJs,
+              musicians, dance crews, and venues &mdash; first across New
+              Jersey, and now across the world &mdash; to bring salsa back to
+              the people.{" "}
+              <span className="italic text-white">
+                Somos familia. Sin fronteras.
+              </span>
             </p>
             <p>
-              Interested in collaborating with us?{" "}
+              Our first partner?{" "}
+              <span className="text-red-500 font-semibold">NJ Salsa</span>
+              &mdash;the heartbeat of the Latin dance movement in the Garden
+              State. That partnership lit the spark. Now we&apos;re building a
+              global platform where dance schools, promoters, and event
+              organizers from any city can reach dancers worldwide. More than
+              classes &mdash; community without borders.
+            </p>
+            <p>
+              Want to be part of it?{" "}
               <a
                 href="mailto:info@badbunnysalsa.com"
-                className="text-salsa-red hover:underline"
+                className="text-red-500 hover:text-red-400 underline underline-offset-4 transition-colors"
               >
-                Send us an email
+                Drop us a line
               </a>
-              ; tell us who you are, share your socials, and let us know how you
-              think we can collaborate.
+              . Tell us your story. Let&apos;s make moves together.
             </p>
           </div>
         </div>
       </section>
 
       {/* NJ Salsa Partnership */}
-      <section className="py-16 md:py-20 px-6 bg-salsa-black">
+      <section className="py-16 md:py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-salsa-white mb-6 leading-relaxed">
-            You don&apos;t need to be a pro to join the movement!
+          <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+            The Movement
+          </p>
+          <h2 className="font-serif italic text-3xl md:text-4xl lg:text-5xl text-white mb-8">
+            No experience? No problem.
           </h2>
-          <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed mb-4">
-            New Jersey, we&apos;ve partnered with the leader in the Latin music
-            &amp; dance movement,
-            <br />
-            <span className="text-salsa-red font-bold">NJ SALSA</span>, to offer
-            group dance classes and Latin social experiences!
+          <p className="text-xl text-white/70 italic mb-6">
+            Todos empezamos en alg&uacute;n lugar.
+          </p>
+          <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-6 max-w-3xl mx-auto">
+            It started in New Jersey with{" "}
+            <span className="text-red-500 font-bold">NJ SALSA</span>, and now
+            we&apos;re taking that same energy worldwide. Group classes,
+            late-night socials, festivals, congresses &mdash; if it moves to
+            Latin rhythms, it belongs here. Real life. Real connection. Every
+            city.
           </p>
 
-          <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed mt-6 mb-4">
-            Follow us on social media!
+          <p className="text-lg md:text-xl text-white/80 leading-relaxed mt-8 mb-6">
+            Join the movement. Follow us.
           </p>
 
           {/* Social Links */}
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a
               href="https://www.instagram.com/badbunnysalsa/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
               aria-label="BadBunnySalsa Instagram"
             >
               <svg
-                className="w-6 h-6 text-salsa-white"
+                className="w-5 h-5 text-white"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -99,11 +123,11 @@ export default function AboutPage() {
               href="https://www.facebook.com/profile.php?id=61585239167439"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
               aria-label="BadBunnySalsa Facebook"
             >
               <svg
-                className="w-6 h-6 text-salsa-white"
+                className="w-5 h-5 text-white"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -114,11 +138,11 @@ export default function AboutPage() {
               href="https://www.tiktok.com/@badbunnysalsa"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+              className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
               aria-label="BadBunnySalsa TikTok"
             >
               <svg
-                className="w-6 h-6 text-salsa-white"
+                className="w-5 h-5 text-white"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -128,25 +152,25 @@ export default function AboutPage() {
           </div>
 
           {/* Text Updates */}
-          <div className="p-4 bg-salsa-gray/50 rounded-xl mb-8">
-            <p className="text-salsa-white text-lg md:text-xl">
-              To receive text updates, text the word{" "}
-              <span className="text-salsa-red font-bold">
+          <div className="bg-[#111] border border-white/10 rounded-xl p-4 max-w-md mx-auto mb-8">
+            <p className="text-white text-lg">
+              Text{" "}
+              <span className="text-red-500 font-bold">
                 &quot;NJSalsa&quot;
               </span>{" "}
-              to <span className="text-salsa-red font-bold">545454</span>
+              to <span className="text-red-500 font-bold">545454</span>
             </p>
           </div>
 
-          <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed">
-            Whether you&apos;re in Central or North Jersey, we&apos;ve got a
-            class for you!
+          <p className="text-lg text-white/70">
+            Jersey City to Jakarta, Miami to Madrid &mdash; we&apos;re
+            everywhere the music is. Find your city and pull up.
           </p>
         </div>
       </section>
 
       {/* Video Section */}
-      <section className="bg-salsa-gray">
+      <section>
         <div className="relative w-full aspect-video md:h-[50vh] md:aspect-auto">
           <video
             autoPlay
@@ -157,94 +181,112 @@ export default function AboutPage() {
             poster="/badbunnysaucetest/videos/second-poster.jpg"
             className="w-full h-full object-cover"
           >
-            <source src="/badbunnysaucetest/videos/second-video.mp4" type="video/mp4" />
+            <source
+              src="/badbunnysaucetest/videos/second-video.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
       </section>
 
-      {/* Why Enroll Section */}
-      <section className="py-16 md:py-20 px-6 bg-salsa-black">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-salsa-white mb-10 leading-relaxed">
-            Why Enroll Now?
-          </h2>
-          <div className="space-y-6 text-left max-w-3xl mx-auto mb-10">
-            <div>
-              <p className="text-lg md:text-xl text-salsa-white leading-relaxed">
-                <span className="text-salsa-red font-bold">
-                  Physical Activity:
-                </span>{" "}
-                Burn up to 600 calories an hour — way more fun than the
-                treadmill! A salsa class keeps you moving, improving your
-                coordination and cardiovascular health without it feeling like
-                &quot;work!&quot;
+      {/* Why People Keep Coming Back */}
+      <section className="py-16 md:py-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+              Why Us
+            </p>
+            <h2 className="font-serif italic text-3xl md:text-4xl lg:text-5xl text-white">
+              Why People Keep Coming Back
+            </h2>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="bg-[#111] border border-white/10 rounded-xl p-8">
+              <h3 className="text-red-500 font-bold text-xl mb-3">
+                The Energy
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                You walk in after a long week. The bass hits. Your body starts
+                moving before your brain catches up. By the end of the night,
+                you&apos;ve forgotten every email, every deadline, every worry.
+                That&apos;s the reset.
               </p>
             </div>
-            <div>
-              <p className="text-lg md:text-xl text-salsa-white leading-relaxed">
-                <span className="text-salsa-red font-bold">
-                  Social Connection:
-                </span>{" "}
-                We thrive at making it easy to bring new people together for
-                real life connections!
+            <div className="bg-[#111] border border-white/10 rounded-xl p-8">
+              <h3 className="text-red-500 font-bold text-xl mb-3">
+                The People
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                Walk in a stranger, leave with a crew. Our community is the kind
+                of place where someone holds your hand through your first spin
+                and cheers when you nail it. Real people. Real connection.
               </p>
             </div>
-            <div>
-              <p className="text-lg md:text-xl text-salsa-white leading-relaxed">
-                <span className="text-salsa-red font-bold">
-                  Skill Building:
-                </span>{" "}
-                Learn a skill that you can use at weddings, clubs, lounges,
-                restaurants, family gatherings, cook outs, and parties for the
-                rest of your life!
+            <div className="bg-[#111] border border-white/10 rounded-xl p-8">
+              <h3 className="text-red-500 font-bold text-xl mb-3">
+                The Growth
+              </h3>
+              <p className="text-white/70 leading-relaxed">
+                Imagine walking into any wedding, any party, any cookout for the
+                rest of your life and being THAT person on the dance floor.
+                Yeah. That&apos;s you now.
               </p>
             </div>
           </div>
-          <h3 className="text-xl md:text-2xl font-bold text-salsa-white mb-4">
-            Ready to step in?!
-          </h3>
-          <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed">
-            No partner required! No experience needed! Just bring your energy
-            and we&apos;ll make the rest easy!
+        </div>
+      </section>
+
+      {/* Solo CTA */}
+      <section className="py-16 md:py-20 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-serif italic text-3xl md:text-4xl text-white mb-4">
+            &iquest;Solo? Perfecto.
+          </h2>
+          <p className="text-lg md:text-xl text-white/70 leading-relaxed mb-4">
+            No partner needed. No experience required. You won&apos;t be solo
+            for long. Just bring your energy&mdash;we handle the rest.
           </p>
         </div>
       </section>
 
-      {/* Life Hack Section */}
-      <section className="py-16 md:py-20 px-6 bg-salsa-gray">
+      {/* Lifestyle */}
+      <section className="py-16 md:py-20 px-6 border-t border-white/5">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-salsa-white mb-8 leading-relaxed">
-            Salsa is the ultimate life hack:
+          <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+            More Than Dance
+          </p>
+          <h2 className="font-serif italic text-3xl md:text-4xl text-white mb-10">
+            It&apos;s a lifestyle.
           </h2>
-          <div className="space-y-4 text-left max-w-2xl mx-auto mb-8">
-            <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed">
-              Burn up to{" "}
-              <span className="text-salsa-red font-bold">600 calories</span> an
-              hour (way more fun than the treadmill)
+          <div className="space-y-4 text-left max-w-2xl mx-auto mb-10">
+            <p className="text-lg text-white/70 leading-relaxed">
+              Your body moves, your mind clears, and your week melts away.
+              Better than any gym. Way more fun.
             </p>
-            <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed">
-              Meet the most vibrant, welcoming community in the city in classes
-              &amp; socials
+            <p className="text-lg text-white/70 leading-relaxed">
+              You&apos;ll meet people who become your Friday-night crew, your
+              weekend plans, your lifelong friends.
             </p>
-            <p className="text-lg md:text-xl text-salsa-white/90 leading-relaxed">
-              Finally learn the moves everyone is talking about
+            <p className="text-lg text-white/70 leading-relaxed">
+              And you&apos;ll finally have the moves everyone&apos;s been
+              talking about. <span className="italic text-white">De nada.</span>
             </p>
           </div>
-          <p className="text-xl md:text-2xl text-salsa-white font-semibold mb-4">
-            Don&apos;t just stream the music—live it!
+          <p className="text-xl md:text-2xl text-white font-semibold">
+            Don&apos;t just stream the music&mdash;live it.
           </p>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-20 px-6 bg-salsa-black text-center">
+      <section className="py-16 md:py-20 px-6 text-center border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-salsa-white mb-8">
-            Ready to join the movement?
+          <h2 className="font-serif italic text-3xl md:text-4xl text-white mb-8">
+            &iquest;List@? Let&apos;s go.
           </h2>
           <Link
             href="/events"
-            className="btn-salsa inline-block px-8 py-4 rounded-full text-salsa-white font-semibold text-lg"
+            className="inline-block px-8 py-4 rounded-full bg-red-600 hover:bg-red-700 text-white font-semibold text-lg transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-600/30"
           >
             View Our Events
           </Link>

@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-/* Custom theme colors */
+/* V0 Design System */
 @theme {
   --color-salsa-red: #dc2626;
   --color-salsa-red-dark: #b91c1c;
   --color-salsa-black: #0a0a0a;
   --color-salsa-white: #ffffff;
-  --color-salsa-gray: #1a1a1a;
+  --color-salsa-gray: #141414;
+  --color-salsa-gold: #fbbf24;
 
-  --font-cursive: "Dancing Script", cursive;
-  --font-sans: "Inter", system-ui, sans-serif;
+  --font-playfair: var(--font-playfair-display);
+  --font-sans: var(--font-inter-sans);
 }
 
 /* Base styles */
@@ -26,23 +26,41 @@ body {
   overflow-x: hidden;
 }
 
+/* Section label - small uppercase red tracking text */
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-salsa-red);
+}
+
+/* Heading - Playfair Display italic */
+.heading-display {
+  font-family: var(--font-playfair);
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Card style */
+.card-dark {
+  background-color: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+}
+
 /* Video banner overlay gradient */
 .video-overlay {
-  background: linear-gradient(
-    to bottom,
-    rgba(10, 10, 10, 0.3) 0%,
-    rgba(10, 10, 10, 0.1) 50%,
-    rgba(10, 10, 10, 0.7) 100%
+  background: radial-gradient(
+    ellipse at center 40%,
+    transparent 0%,
+    rgba(10, 10, 10, 0.2) 40%,
+    rgba(10, 10, 10, 0.7) 80%,
+    rgba(10, 10, 10, 0.9) 100%
   );
 }
 
-/* Cursive logo styling */
-.cursive-logo {
-  font-family: var(--font-cursive);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* Image gallery hover effects */
+/* Gallery hover effect */
 .gallery-image {
   transition:
     transform 0.3s ease,
@@ -75,7 +93,7 @@ body {
   );
 }
 
-/* Scroll animations */
+/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -91,7 +109,87 @@ body {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
-/* Button hover effect */
+/* Stagger fade-in for lists */
+@keyframes staggerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-stagger > * {
+  opacity: 0;
+  animation: staggerFadeIn 0.5s ease-out forwards;
+}
+
+.animate-stagger > *:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.animate-stagger > *:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.animate-stagger > *:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.animate-stagger > *:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.animate-stagger > *:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.animate-stagger > *:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* CTA pulse */
+@keyframes ctaPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px 8px rgba(220, 38, 38, 0.2);
+  }
+}
+
+.animate-cta-pulse {
+  animation: ctaPulse 2.5s ease-in-out infinite;
+}
+
+/* Scroll bounce */
+@keyframes scrollBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-scroll-bounce {
+  animation: scrollBounce 2s ease-in-out infinite;
+}
+
+/* Button - red filled CTA */
+.btn-primary {
+  background-color: var(--color-salsa-red);
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-salsa-red-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(220, 38, 38, 0.4);
+}
+
+/* Button - salsa gradient */
 .btn-salsa {
   background: linear-gradient(
     135deg,
@@ -99,11 +197,49 @@ body {
     var(--color-salsa-red-dark) 100%
   );
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .btn-salsa:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(220, 38, 38, 0.4);
+}
+
+/* Button - glow CTA */
+.btn-glow {
+  background: linear-gradient(
+    135deg,
+    var(--color-salsa-red) 0%,
+    #ef4444 50%,
+    var(--color-salsa-red-dark) 100%
+  );
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow:
+    0 0 15px rgba(220, 38, 38, 0.4),
+    0 0 30px rgba(220, 38, 38, 0.1);
+}
+
+.btn-glow:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow:
+    0 0 25px rgba(220, 38, 38, 0.6),
+    0 0 50px rgba(220, 38, 38, 0.2);
+}
+
+/* Button - outline */
+.btn-outline {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
 }
 
 /* Section divider */
@@ -112,7 +248,20 @@ body {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(220, 38, 38, 0.5),
+    rgba(255, 255, 255, 0.15),
     transparent
   );
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(
+    135deg,
+    var(--color-salsa-red) 0%,
+    var(--color-salsa-gold) 50%,
+    var(--color-salsa-red) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

@@ -15,22 +15,46 @@ export const metadata: Metadata = {
 };
 
 const allImages = [
-  { src: "/badbunnysaucetest/images/11.webp", alt: "Salsa dancing at Bad Bunny Salsa event" },
-  { src: "/badbunnysaucetest/images/12.webp", alt: "Salsa class in New Jersey" },
-  { src: "/badbunnysaucetest/images/13.webp", alt: "Social dancing at salsa night" },
-  { src: "/badbunnysaucetest/images/14.webp", alt: "Salsa dancers on the floor" },
+  {
+    src: "/badbunnysaucetest/images/11.webp",
+    alt: "Salsa dancing at Bad Bunny Salsa event",
+  },
+  {
+    src: "/badbunnysaucetest/images/12.webp",
+    alt: "Salsa class in New Jersey",
+  },
+  {
+    src: "/badbunnysaucetest/images/13.webp",
+    alt: "Social dancing at salsa night",
+  },
+  {
+    src: "/badbunnysaucetest/images/14.webp",
+    alt: "Salsa dancers on the floor",
+  },
   { src: "/badbunnysaucetest/images/15.webp", alt: "Group salsa class" },
   { src: "/badbunnysaucetest/images/16.webp", alt: "Latin dance social event" },
   { src: "/badbunnysaucetest/images/17.webp", alt: "Salsa event highlight" },
   { src: "/badbunnysaucetest/images/18.webp", alt: "Dance floor moments" },
-  { src: "/badbunnysaucetest/images/19.webp", alt: "Salsa community gathering" },
-  { src: "/badbunnysaucetest/images/20.webp", alt: "Partner dancing at salsa social" },
-  { src: "/badbunnysaucetest/images/21.webp", alt: "Salsa class practice session" },
+  {
+    src: "/badbunnysaucetest/images/19.webp",
+    alt: "Salsa community gathering",
+  },
+  {
+    src: "/badbunnysaucetest/images/20.webp",
+    alt: "Partner dancing at salsa social",
+  },
+  {
+    src: "/badbunnysaucetest/images/21.webp",
+    alt: "Salsa class practice session",
+  },
   { src: "/badbunnysaucetest/images/22.webp", alt: "Latin dance night" },
   { src: "/badbunnysaucetest/images/23.webp", alt: "Salsa workshop attendees" },
   { src: "/badbunnysaucetest/images/24.webp", alt: "Dance floor action" },
   { src: "/badbunnysaucetest/images/25.webp", alt: "Salsa community event" },
-  { src: "/badbunnysaucetest/images/26.webp", alt: "Social dancing highlights" },
+  {
+    src: "/badbunnysaucetest/images/26.webp",
+    alt: "Social dancing highlights",
+  },
   { src: "/badbunnysaucetest/images/27.webp", alt: "Bad Bunny Salsa class" },
   { src: "/badbunnysaucetest/images/28.webp", alt: "New Jersey salsa event" },
   { src: "/badbunnysaucetest/images/29.webp", alt: "Salsa dance celebration" },
@@ -38,14 +62,17 @@ const allImages = [
 
 export default function GalleryPage() {
   return (
-    <main className="min-h-screen bg-salsa-black">
+    <main className="min-h-screen bg-[#0a0a0a]">
       {/* Page Header */}
       <section className="pt-32 pb-8 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="cursive-logo text-4xl md:text-5xl font-bold text-salsa-white mb-4 red-underline inline-block">
+          <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
             Gallery
+          </p>
+          <h1 className="font-serif italic text-5xl md:text-6xl lg:text-7xl text-white mb-4">
+            Noches de Salsa
           </h1>
-          <p className="text-salsa-white/70 mt-8">
+          <p className="text-white/50 mt-6 text-lg">
             Moments captured from our salsa classes, socials, and events
           </p>
         </div>
@@ -56,12 +83,12 @@ export default function GalleryPage() {
 
       {/* CTA */}
       <section className="py-16 px-6 text-center">
-        <p className="text-salsa-white/70 mb-6">
+        <p className="text-white/50 mb-6 text-lg">
           Want to be in our next gallery?
         </p>
         <Link
           href="/events"
-          className="btn-salsa inline-block px-8 py-4 rounded-full text-salsa-white font-semibold"
+          className="inline-block px-8 py-4 rounded-full bg-red-600 hover:bg-red-700 text-white font-semibold transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-600/30"
         >
           Join Our Next Event
         </Link>

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us | Bad Bunny Salsa",
   description:
-    "Get in touch with Bad Bunny Salsa for salsa classes, events, or partnership opportunities in New Jersey.",
+    "Get in touch with Bad Bunny Salsa for salsa classes, events, or partnership opportunities worldwide.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Contact Us | Bad Bunny Salsa",
@@ -15,27 +15,31 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-salsa-black">
+    <main className="min-h-screen bg-[#0a0a0a]">
       {/* Header */}
       <section className="pt-32 pb-8 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="cursive-logo text-4xl md:text-5xl font-bold text-salsa-white mb-4 red-underline inline-block">
-            Get In Touch
+          <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+            Get in Touch
+          </p>
+          <h1 className="font-serif italic text-4xl md:text-5xl lg:text-6xl text-white mb-4">
+            &iquest;Tienes preguntas? &iexcl;Escr&iacute;benos!
           </h1>
-          <p className="text-salsa-white/70 mt-8">
-            We&apos;d love to hear from you
+          <p className="text-white/50 mt-6 text-lg">
+            Whether you&apos;re a first-timer or a seasoned salsero, we&apos;d
+            love to hear from you.
           </p>
         </div>
       </section>
 
       {/* Contact Info Grid */}
       <section className="py-12 px-6">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Email Card */}
-          <div className="bg-salsa-gray border border-salsa-red/10 rounded-2xl p-8 text-center">
-            <div className="w-14 h-14 rounded-full bg-salsa-gray/50 flex items-center justify-center mx-auto mb-5">
+          <div className="bg-[#111] border border-white/10 rounded-xl p-8 text-center">
+            <div className="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center mx-auto mb-5">
               <svg
-                className="w-7 h-7 text-salsa-red"
+                className="w-6 h-6 text-red-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -48,25 +52,25 @@ export default function ContactPage() {
                 />
               </svg>
             </div>
-            <h2 className="text-salsa-white text-xl font-semibold mb-3">
-              Email Us
+            <h2 className="text-white text-xl font-semibold mb-3">
+              Drop Us a Line
             </h2>
             <a
               href="mailto:info@badbunnysalsa.com"
-              className="text-salsa-red hover:text-salsa-white transition-colors text-lg"
+              className="text-red-500 hover:text-red-400 transition-colors text-lg"
             >
               info@badbunnysalsa.com
             </a>
-            <p className="text-salsa-white/50 text-sm mt-3">
-              For general inquiries, collaborations, and partnerships
+            <p className="text-white/40 text-sm mt-3">
+              Questions, collabs, or just want to say hola&mdash;we&apos;re here
             </p>
           </div>
 
           {/* Text Updates Card */}
-          <div className="bg-salsa-gray border border-salsa-red/10 rounded-2xl p-8 text-center">
-            <div className="w-14 h-14 rounded-full bg-salsa-gray/50 flex items-center justify-center mx-auto mb-5">
+          <div className="bg-[#111] border border-white/10 rounded-xl p-8 text-center">
+            <div className="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center mx-auto mb-5">
               <svg
-                className="w-7 h-7 text-salsa-red"
+                className="w-6 h-6 text-red-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -79,23 +83,23 @@ export default function ContactPage() {
                 />
               </svg>
             </div>
-            <h2 className="text-salsa-white text-xl font-semibold mb-3">
-              Text Updates
+            <h2 className="text-white text-xl font-semibold mb-3">
+              Stay in the Loop
             </h2>
-            <p className="text-salsa-white text-lg">
-              Text <span className="font-bold text-salsa-red">NJSalsa</span> to{" "}
-              <span className="font-bold text-salsa-red">545454</span>
+            <p className="text-white text-lg">
+              Text <span className="font-bold text-red-500">NJSalsa</span> to{" "}
+              <span className="font-bold text-red-500">545454</span>
             </p>
-            <p className="text-salsa-white/50 text-sm mt-3">
-              Get notified about upcoming classes and events
+            <p className="text-white/40 text-sm mt-3">
+              Be the first to know when the next class or social drops
             </p>
           </div>
 
           {/* Social Media Card */}
-          <div className="bg-salsa-gray border border-salsa-red/10 rounded-2xl p-8 text-center">
-            <div className="w-14 h-14 rounded-full bg-salsa-gray/50 flex items-center justify-center mx-auto mb-5">
+          <div className="bg-[#111] border border-white/10 rounded-xl p-8 text-center">
+            <div className="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center mx-auto mb-5">
               <svg
-                className="w-7 h-7 text-salsa-red"
+                className="w-6 h-6 text-red-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -108,19 +112,19 @@ export default function ContactPage() {
                 />
               </svg>
             </div>
-            <h2 className="text-salsa-white text-xl font-semibold mb-3">
-              Follow Us
+            <h2 className="text-white text-xl font-semibold mb-3">
+              @badbunnysalsa
             </h2>
             <div className="flex gap-4 justify-center mt-4">
               <a
                 href="https://www.instagram.com/badbunnysalsa/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+                className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
                 aria-label="Instagram"
               >
                 <svg
-                  className="w-6 h-6 text-salsa-white"
+                  className="w-5 h-5 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -131,11 +135,11 @@ export default function ContactPage() {
                 href="https://www.tiktok.com/@badbunnysalsa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+                className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
                 aria-label="TikTok"
               >
                 <svg
-                  className="w-6 h-6 text-salsa-white"
+                  className="w-5 h-5 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -146,11 +150,11 @@ export default function ContactPage() {
                 href="https://www.facebook.com/profile.php?id=61585239167439"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-salsa-gray flex items-center justify-center hover:bg-salsa-red transition-colors"
+                className="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-red-600 hover:border-red-600 transition-all"
                 aria-label="Facebook"
               >
                 <svg
-                  className="w-6 h-6 text-salsa-white"
+                  className="w-5 h-5 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -163,24 +167,28 @@ export default function ContactPage() {
       </section>
 
       {/* Partnership Section */}
-      <section className="py-16 px-6 bg-salsa-gray">
+      <section className="py-16 px-6 border-t border-white/5">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-salsa-white mb-6">
-            Interested in Listing Your Studio&apos;s Events?
-          </h2>
-          <p className="text-salsa-white/70 text-lg mb-4">
-            Are you a dance company, musician, DJ, or venue? We&apos;re actively
-            looking for collaborative partners across New Jersey.
+          <p className="uppercase tracking-[0.2em] text-sm text-red-600 mb-4">
+            Partnerships
           </p>
-          <p className="text-salsa-white/50 mb-8">
-            Tell us who you are, share your socials, and let us know how you
-            think we can collaborate.
+          <h2 className="font-serif italic text-3xl md:text-4xl text-white mb-6">
+            Dance Schools, Promoters, Organizers &mdash; Let&apos;s Connect.
+          </h2>
+          <p className="text-white/60 text-lg mb-4">
+            Whether you&apos;re a studio in New York, a promoter in Colombia, or
+            a dance school in Berlin &mdash; if you&apos;re part of the Latin
+            dance world, we want to work with you.
+          </p>
+          <p className="text-white/40 mb-8">
+            Tell us who you are and what you bring to the floor.
+            &iexcl;Hablemos!
           </p>
           <a
             href="mailto:info@badbunnysalsa.com"
-            className="btn-salsa inline-block px-8 py-3 text-lg font-semibold"
+            className="inline-block px-8 py-3 rounded-full bg-red-600 hover:bg-red-700 text-white text-lg font-semibold transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-red-600/30"
           >
-            Send Us an Email
+            Let&apos;s Talk
           </a>
         </div>
       </section>

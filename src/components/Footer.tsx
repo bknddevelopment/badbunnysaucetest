@@ -1,29 +1,36 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-salsa-gray py-16 px-6">
+    <footer className="bg-[#141414] py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {/* Brand */}
-          <div>
-            <h4 className="cursive-logo text-3xl font-bold text-salsa-white mb-4">
-              Bad Bunny <span className="text-salsa-red">Salsa</span>
-            </h4>
-            <p className="text-salsa-red font-semibold italic mb-4">
-              &quot;Salsa Elevated&quot;
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          {/* Brand + Social */}
+          <div className="md:col-span-1">
+            <div className="mb-3">
+              <Image
+                src="/badbunnysaucetest/images/logo.webp"
+                alt="Bad Bunny Salsa"
+                width={384}
+                height={128}
+                className="h-32 w-auto"
+              />
+            </div>
+            <p className="text-white/50 text-sm mb-6">
+              The world&apos;s Latin dance platform. Born in New Jersey,
+              connecting dancers worldwide.
             </p>
-            {/* BadBunnySalsa Social Links */}
             <div className="flex gap-3">
               <a
                 href="https://www.instagram.com/badbunnysalsa/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-salsa-black flex items-center justify-center hover:bg-salsa-red transition-colors"
-                aria-label="BadBunnySalsa Instagram"
+                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 transition-colors"
+                aria-label="Instagram"
               >
                 <svg
-                  className="w-5 h-5 text-salsa-white"
+                  className="w-4 h-4 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -34,11 +41,11 @@ export default function Footer() {
                 href="https://www.tiktok.com/@badbunnysalsa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-salsa-black flex items-center justify-center hover:bg-salsa-red transition-colors"
-                aria-label="BadBunnySalsa TikTok"
+                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 transition-colors"
+                aria-label="TikTok"
               >
                 <svg
-                  className="w-5 h-5 text-salsa-white"
+                  className="w-4 h-4 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -49,11 +56,11 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=61585239167439"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-salsa-black flex items-center justify-center hover:bg-salsa-red transition-colors"
-                aria-label="BadBunnySalsa Facebook"
+                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 transition-colors"
+                aria-label="Facebook"
               >
                 <svg
-                  className="w-5 h-5 text-salsa-white"
+                  className="w-4 h-4 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -65,36 +72,38 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h5 className="text-salsa-white font-semibold mb-4">Quick Links</h5>
+            <h5 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">
+              Quick Links
+            </h5>
             <ul className="space-y-2">
               <li>
                 <Link
                   href="/"
-                  className="text-salsa-white/60 hover:text-salsa-red transition-colors"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/events"
-                  className="text-salsa-white/60 hover:text-salsa-red transition-colors"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/about"
-                  className="text-salsa-white/60 hover:text-salsa-red transition-colors"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
                 >
                   About Us
                 </Link>
               </li>
               <li>
                 <Link
+                  href="/events"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Events
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/gallery"
-                  className="text-salsa-white/60 hover:text-salsa-red transition-colors"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
                 >
                   Gallery
                 </Link>
@@ -102,13 +111,48 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Company */}
           <div>
-            <h5 className="text-salsa-white font-semibold mb-4">Contact Us</h5>
-            <ul className="space-y-2 text-salsa-white/60">
-              <li className="flex items-center gap-2">
+            <h5 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">
+              Company
+            </h5>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  href="/about"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Our Story
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/events"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Book a Class
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div>
+            <h5 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">
+              Get in Touch
+            </h5>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-2 text-white/50 text-sm">
                 <svg
-                  className="w-5 h-5 text-salsa-red"
+                  className="w-4 h-4 text-red-600 shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -122,10 +166,32 @@ export default function Footer() {
                 </svg>
                 <a
                   href="mailto:info@badbunnysalsa.com"
-                  className="hover:text-salsa-red transition-colors"
+                  className="hover:text-white transition-colors"
                 >
                   info@badbunnysalsa.com
                 </a>
+              </li>
+              <li className="flex items-center gap-2 text-white/50 text-sm">
+                <svg
+                  className="w-4 h-4 text-red-600 shrink-0"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <span>New Jersey, USA</span>
               </li>
             </ul>
           </div>
@@ -133,12 +199,11 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="section-divider mt-12 mb-8" />
-        <div className="text-center text-salsa-white/40 text-sm">
+        <div className="text-center text-white/40 text-sm">
           <p>
             &copy; {new Date().getFullYear()} Bad Bunny Salsa. All rights
             reserved.
           </p>
-          <p className="mt-2">Made with passion for dance</p>
         </div>
       </div>
     </footer>
