@@ -11,7 +11,7 @@ export default function HeroSection() {
         {/* Text Content - Mobile */}
         <div className="pt-24 pb-8 px-6 text-center bg-salsa-black flex flex-col items-center">
           <Image
-            src="/images/logo.webp"
+            src="/badbunnysaucetest/images/logo.webp"
             alt="Bad Bunny Salsa"
             width={300}
             height={200}

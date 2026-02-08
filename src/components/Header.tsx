@@ -49,7 +49,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <Link href="/">
             <Image
-              src="/images/logo.webp"
+              src="/badbunnysaucetest/images/logo.webp"
               alt="Bad Bunny Salsa"
               width={360}
               height={240}

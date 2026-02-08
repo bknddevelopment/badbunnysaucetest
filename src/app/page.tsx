@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 };
 
 const galleryImages = [
-  { src: "/images/11.webp", alt: "Salsa Dancing 1" },
-  { src: "/images/12.webp", alt: "Salsa Dancing 2" },
-  { src: "/images/13.webp", alt: "Salsa Dancing 3" },
-  { src: "/images/14.webp", alt: "Salsa Dancing 4" },
-  { src: "/images/15.webp", alt: "Salsa Dancing 5" },
-  { src: "/images/16.webp", alt: "Salsa Dancing 6" },
+  { src: "/badbunnysaucetest/images/11.webp", alt: "Salsa Dancing 1" },
+  { src: "/badbunnysaucetest/images/12.webp", alt: "Salsa Dancing 2" },
+  { src: "/badbunnysaucetest/images/13.webp", alt: "Salsa Dancing 3" },
+  { src: "/badbunnysaucetest/images/14.webp", alt: "Salsa Dancing 4" },
+  { src: "/badbunnysaucetest/images/15.webp", alt: "Salsa Dancing 5" },
+  { src: "/badbunnysaucetest/images/16.webp", alt: "Salsa Dancing 6" },
 ];
 
 export default function Home() {
