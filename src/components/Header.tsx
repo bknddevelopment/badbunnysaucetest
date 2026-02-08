@@ -10,6 +10,7 @@ const navItems = [
   { label: "EVENTS", href: "/events" },
   { label: "GALLERY", href: "/gallery" },
   { label: "TESTIMONIALS", href: "/#testimonials" },
+  { label: "PARTNER", href: "/partner" },
   { label: "CONTACT", href: "/contact" },
 ];
 

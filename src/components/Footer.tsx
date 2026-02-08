@@ -141,6 +141,14 @@ export default function Footer() {
                   Book a Class
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/partner"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Partner With Us
+                </Link>
+              </li>
             </ul>
           </div>
 
