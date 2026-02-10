@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#141414] py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           {/* Brand + Social */}
           <div className="md:col-span-1">
             <div className="mb-3">
@@ -106,6 +106,47 @@ export default function Footer() {
                   className="text-white/50 hover:text-white transition-colors text-sm"
                 >
                   Gallery
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Learn */}
+          <div>
+            <h5 className="text-white font-semibold mb-4 uppercase tracking-wider text-sm">
+              Learn
+            </h5>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  href="/learn/salsa-styles"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Salsa Styles
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/learn/beginners"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Beginner&apos;s Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/learn/musicality"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  Salsa Music
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/learn/faq"
+                  className="text-white/50 hover:text-white transition-colors text-sm"
+                >
+                  FAQ
                 </Link>
               </li>
             </ul>

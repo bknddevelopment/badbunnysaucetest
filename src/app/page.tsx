@@ -4,6 +4,7 @@ import SocialProof from "@/components/home/SocialProof";
 import FeaturedEvents from "@/components/home/FeaturedEvents";
 import ImageGallery from "@/components/ImageGallery";
 import Testimonials from "@/components/Testimonials";
+import LearnSalsa from "@/components/home/LearnSalsa";
 import ListYourStudio from "@/components/home/ListYourStudio";
 
 export const metadata: Metadata = {
@@ -43,6 +44,7 @@ export default function Home() {
       <FeaturedEvents />
       <ImageGallery images={galleryImages} />
       <Testimonials />
+      <LearnSalsa />
       <ListYourStudio />
     </main>
   );
